@@ -2,7 +2,7 @@ package SingleTonPattren;
 
 public class SingleTonMultiThreadingEnironMent
 {
-    private static SingleTonMultiThreadingEnironMent instance;
+    private static volatile SingleTonMultiThreadingEnironMent instance;
 
     private SingleTonMultiThreadingEnironMent()
     {
