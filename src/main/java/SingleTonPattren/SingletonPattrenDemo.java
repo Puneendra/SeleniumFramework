@@ -14,7 +14,8 @@ public class SingletonPattrenDemo
     public static SingletonPattrenDemo getInstance()
     {
 
-        if(instance == null) {
+        if(instance == null)
+        {
 
             instance = new SingletonPattrenDemo();
 
